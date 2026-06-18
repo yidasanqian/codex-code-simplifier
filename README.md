@@ -17,10 +17,12 @@ Install the `Code Simplifier` plugin from the marketplace after Codex loads it.
 
 ## Use
 
-This plugin provides workflow instructions, not an MCP tool or slash command. Mention it with a concrete target:
+Use it from the Codex slash command picker. Type `/code`, select **Code Simplifier**, then add a concrete target:
+
+![Code Simplifier slash command](docs/images/codex-slash-code-simplifier.png)
 
 ```text
-@Code Simplifier simplify my uncommitted changes without changing behavior
+/code simplify my uncommitted changes without changing behavior
 ```
 
 Or ask directly:

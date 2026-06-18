@@ -17,12 +17,14 @@ Codex 加载市场后，安装 `Code Simplifier` 插件。
 
 ## 如何使用
 
-这个插件不是 MCP 工具，也不是 slash command。它提供的是一套代码简化 workflow，所以使用时需要带上目标。
+通过 Codex 的 slash command 选择器使用。输入 `/code`，选择 **Code Simplifier**，然后补上具体目标：
+
+![Code Simplifier slash command](docs/images/codex-slash-code-simplifier.png)
 
 推荐写法：
 
 ```text
-@Code Simplifier 简化当前未提交改动，保持行为不变
+/code 简化当前未提交改动，保持行为不变
 ```
 
 也可以直接说：
