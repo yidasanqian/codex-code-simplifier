@@ -1,0 +1,33 @@
+{
+  "name": "code-simplifier",
+  "version": "0.1.0",
+  "description": "Refine recently changed code for clarity, consistency, and maintainability while preserving behavior.",
+  "author": {
+    "name": "yidasanqian"
+  },
+  "repository": "https://github.com/yidasanqian/codex-code-simplifier",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "refactor",
+    "simplify",
+    "maintainability"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Code Simplifier",
+    "shortDescription": "Refine recent code changes without changing behavior.",
+    "longDescription": "Code Simplifier gives Codex a focused workflow for simplifying recently modified code while preserving exact behavior, following project instructions, and verifying the affected surface.",
+    "developerName": "yidasanqian",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use code-simplifier on my recent changes.",
+      "Simplify the code I just edited without changing behavior."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

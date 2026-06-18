@@ -1,0 +1,4 @@
+interface:
+  display_name: Code Simplifier
+  short_description: Simplify recent code changes while preserving behavior.
+  default_prompt: Use code-simplifier on my recent changes.
